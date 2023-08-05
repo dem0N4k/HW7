@@ -32,10 +32,33 @@ public class Main {
                 System.out.println("\tНеверный выбор! ВЫберите ингредиент из имеющихся в наличии!\n");
                 continue;
             }
+
+
+
             System.out.println("\t\t\tВыбранные Вами ингредиенты:\n" + "Жабьи глаза: "
                     + toadEyesCount + "\nСлезы вурдулака: " + ghoulTearsCount + "\nКости ворона: "
                     + ravenBonesCount + "\nПельмени: " + dumplingsCount + "\n");
         }
+
+        /*
+        System.out.println("\n\n\t\t\t\t\t\t*** Алхимический стол ***\n");
+
+        System.out.println("Введите кол-во Жабьих глаз: ");
+        toadEyesCount = new Scanner(System.in).nextInt();
+
+        System.out.println("Введите кол-во Слез вурдулака: ");
+        ghoulTearsCount = new Scanner(System.in).nextInt();
+
+        System.out.println("Введите кол-во Костей ворона: ");
+        ravenBonesCount = new Scanner(System.in).nextInt();
+
+        System.out.println("Введите кол-во Пельменей: ");
+        dumplingsCount = new Scanner(System.in).nextInt();
+
+        System.out.println("\t\t\tВыбранные Вами ингредиенты:\n" + "Жабьи глаза: "
+                + toadEyesCount + "\nСлезы вурдулака: " + ghoulTearsCount + "\nКости ворона: "
+                + ravenBonesCount + "\nПельмени: " + dumplingsCount + "\n");
+*/
 
         //Рецепты Эликсиров:
         // 1. 3 Жабьих глаза + 1 кость ворона - Эликсир зоркости
